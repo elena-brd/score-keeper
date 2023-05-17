@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f4f4f4;
+    color: #202020;
+    line-height: 1.4;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 600px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem auto;
+}
+
+.showcase p {
+    padding: 0.8rem 0.5rem;
+    font-weight: 500;
+    border-bottom: 1px solid #ccc;
+}
+
+.score-card {
+    padding: 1rem 1.5rem;
+}
+
+.score-text {
+    padding: 1rem 0;
+}
+
+.score-option {
+    padding-bottom: 1.5rem;
+}
+
+.score-option label {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+select {
+    cursor: pointer;
+}
+
+.score-option select {
+    padding: 0.5rem 0.9rem;
+    border-radius: 25px;
+    margin: 0 0.5rem;
+}
+
+.btn {
+    width: 273px;
+    display: inline-block;
+    padding: 0.7rem 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+#btn-player-one {
+    background: #00b4d8;
+}
+
+#btn-player-two {
+    background: #a7c957;
+}
